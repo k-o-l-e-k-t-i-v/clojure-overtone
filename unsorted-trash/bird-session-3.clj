@@ -5,7 +5,7 @@
 ;;
 
 
-
+(boot-external-server)
 (demo 200
       (let [t  (impulse:ar 1/4)
             tr (impulse:ar (+ 1 (* 3.3 (lf-noise0 2))))
